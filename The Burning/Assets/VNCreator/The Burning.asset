@@ -1,0 +1,639 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: The Burning
+  m_EditorClassIdentifier: 
+  links:
+  - guid: 8c0f95ba-dadc-4227-9684-5ca05dba9483
+    targetGuid: 78f05e14-a6c8-48e9-b2e9-52ed0a10f406
+    portId: 0
+  - guid: 78f05e14-a6c8-48e9-b2e9-52ed0a10f406
+    targetGuid: 485dad7f-4fec-4e02-b12b-a119188679b4
+    portId: 1
+  - guid: 485dad7f-4fec-4e02-b12b-a119188679b4
+    targetGuid: b3e96627-1692-4f98-802f-c6f13c83553b
+    portId: 2
+  - guid: 485dad7f-4fec-4e02-b12b-a119188679b4
+    targetGuid: 5841a0d4-b430-42ff-8050-ba96205668cc
+    portId: 3
+  - guid: 42c0f630-fcca-44db-b0c6-e5375696ef00
+    targetGuid: 8c0f95ba-dadc-4227-9684-5ca05dba9483
+    portId: 4
+  - guid: b3e96627-1692-4f98-802f-c6f13c83553b
+    targetGuid: 54789ca6-abdd-43c2-b220-86665f1efdc2
+    portId: 5
+  - guid: 54789ca6-abdd-43c2-b220-86665f1efdc2
+    targetGuid: 264c52ab-e5b6-450d-b2c1-dfe24e481c09
+    portId: 6
+  - guid: 264c52ab-e5b6-450d-b2c1-dfe24e481c09
+    targetGuid: 3d5fc4b6-7e79-4f99-a763-ae6b5e4a05df
+    portId: 7
+  - guid: 264c52ab-e5b6-450d-b2c1-dfe24e481c09
+    targetGuid: 3d5fc4b6-7e79-4f99-a763-ae6b5e4a05df
+    portId: 8
+  - guid: 264c52ab-e5b6-450d-b2c1-dfe24e481c09
+    targetGuid: 3d5fc4b6-7e79-4f99-a763-ae6b5e4a05df
+    portId: 9
+  - guid: 3d5fc4b6-7e79-4f99-a763-ae6b5e4a05df
+    targetGuid: 429434dd-ece7-4bb2-9c71-dbd71828ea63
+    portId: 10
+  - guid: 3d5fc4b6-7e79-4f99-a763-ae6b5e4a05df
+    targetGuid: 429434dd-ece7-4bb2-9c71-dbd71828ea63
+    portId: 11
+  - guid: 3d5fc4b6-7e79-4f99-a763-ae6b5e4a05df
+    targetGuid: 429434dd-ece7-4bb2-9c71-dbd71828ea63
+    portId: 12
+  - guid: 429434dd-ece7-4bb2-9c71-dbd71828ea63
+    targetGuid: aaf2a566-891a-4f9e-91b1-0098354df14f
+    portId: 13
+  - guid: 429434dd-ece7-4bb2-9c71-dbd71828ea63
+    targetGuid: aaf2a566-891a-4f9e-91b1-0098354df14f
+    portId: 14
+  - guid: 429434dd-ece7-4bb2-9c71-dbd71828ea63
+    targetGuid: aaf2a566-891a-4f9e-91b1-0098354df14f
+    portId: 15
+  - guid: aaf2a566-891a-4f9e-91b1-0098354df14f
+    targetGuid: ebaac475-ef8d-41ee-9e30-a86c7b2e4bfb
+    portId: 16
+  - guid: d60d1ec2-2e9c-4e9b-ac92-f6ebd2ed74c5
+    targetGuid: a97b10d0-fef2-494d-82a1-b418c8700ed9
+    portId: 17
+  - guid: a97b10d0-fef2-494d-82a1-b418c8700ed9
+    targetGuid: 6ef4c697-e175-4090-8b16-6b55868f521a
+    portId: 18
+  - guid: 6ef4c697-e175-4090-8b16-6b55868f521a
+    targetGuid: 7dfd2eeb-6bdf-4640-b19b-63ca6a8a6e20
+    portId: 19
+  - guid: 99070c90-71d0-441d-8223-7800e47f918a
+    targetGuid: d60d1ec2-2e9c-4e9b-ac92-f6ebd2ed74c5
+    portId: 20
+  - guid: ebaac475-ef8d-41ee-9e30-a86c7b2e4bfb
+    targetGuid: cd4bfd58-b6e8-494e-bcef-d7e26926168a
+    portId: 21
+  - guid: cd4bfd58-b6e8-494e-bcef-d7e26926168a
+    targetGuid: 8baee2c7-8b53-4e6b-b9d9-fe8f250c90ca
+    portId: 22
+  - guid: 8baee2c7-8b53-4e6b-b9d9-fe8f250c90ca
+    targetGuid: 99070c90-71d0-441d-8223-7800e47f918a
+    portId: 23
+  - guid: 7dfd2eeb-6bdf-4640-b19b-63ca6a8a6e20
+    targetGuid: 9144e8d7-1290-4a12-b449-f5c20fb1060c
+    portId: 24
+  - guid: 9144e8d7-1290-4a12-b449-f5c20fb1060c
+    targetGuid: 030e5078-3b53-4916-a89a-3d0cd14481fa
+    portId: 25
+  - guid: 030e5078-3b53-4916-a89a-3d0cd14481fa
+    targetGuid: 9bf7883c-7abb-4e2d-b2c7-e3239a043aa4
+    portId: 26
+  - guid: 9bf7883c-7abb-4e2d-b2c7-e3239a043aa4
+    targetGuid: 858872e9-6cff-4f37-85ba-51a0a31aef8d
+    portId: 27
+  - guid: 858872e9-6cff-4f37-85ba-51a0a31aef8d
+    targetGuid: 18bc1446-17bc-4f3e-b833-d5aa96e86735
+    portId: 28
+  - guid: 18bc1446-17bc-4f3e-b833-d5aa96e86735
+    targetGuid: 3daecf61-007f-469f-83a6-082409a85ccb
+    portId: 29
+  - guid: 3daecf61-007f-469f-83a6-082409a85ccb
+    targetGuid: 3321bccc-3951-4616-ab9d-7c82f51c83f0
+    portId: 30
+  nodes:
+  - guid: 8c0f95ba-dadc-4227-9684-5ca05dba9483
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: The Emberveil Thicket was alive with the murmurs of the wild as
+      the party traveled deeper into its shadowed heart. Ancient trees, their bark
+      twisted with age, loomed overhead, their canopies so thick that only slivers
+      of the setting sun pierced through.
+    backgroundSpr: {fileID: -48167549942996903, guid: f1f33bcbc7a4b464bb78e0fbcb97f735, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1389
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 78f05e14-a6c8-48e9-b2e9-52ed0a10f406
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "With each step, the scent of damp earth and crisp autumn leaves
+      filled their lungs, mingling with the faint aroma of woodsmoke\u2014a promise
+      of civilization ahead. The road sloped downward, revealing Hearthglen Village,
+      nestled in the embrace of towering oaks."
+    backgroundSpr: {fileID: -577172545017557598, guid: aaf9e18857237324e92fb7ddad71fe0c, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2027
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 485dad7f-4fec-4e02-b12b-a119188679b4
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: The settlement was modest but sturdy, its wooden palisade standing
+      as a silent guardian against the unknown dangers beyond. Despite its humble
+      appearance, something about the village felt... uneasy.
+    backgroundSpr: {fileID: -577172545017557598, guid: aaf9e18857237324e92fb7ddad71fe0c, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - Stay
+    - Leave
+    nodePosition:
+      serializedVersion: 2
+      x: 2624
+      y: 155
+      width: 499
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 42c0f630-fcca-44db-b0c6-e5375696ef00
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: The Emberveil Thicket was alive with the murmurs of the wild as
+      the party traveled deeper into its shadowed heart. Ancient trees, their bark
+      twisted with age, loomed overhead, their canopies so thick that only slivers
+      of the setting sun pierced through.
+    backgroundSpr: {fileID: -48167549942996903, guid: f1f33bcbc7a4b464bb78e0fbcb97f735, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 820
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5841a0d4-b430-42ff-8050-ba96205668cc
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3230
+      y: -235
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b3e96627-1692-4f98-802f-c6f13c83553b
+    characterSpr: {fileID: 0}
+    characterName: You
+    dialogueText: Before we arrived in Hearthglen, we rode together in silence. The
+      road stretched on, and the carriage creaked with every turn. No one spoke.
+      Not yet.
+    backgroundSpr: {fileID: -577172545017557598, guid: aaf9e18857237324e92fb7ddad71fe0c, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3230
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 54789ca6-abdd-43c2-b220-86665f1efdc2
+    characterSpr: {fileID: 0}
+    characterName: You
+    dialogueText: "\u201CI suppose we should know who we\u2019re riding into danger
+      with... I\u2019ll start.\u201D"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3821
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 264c52ab-e5b6-450d-b2c1-dfe24e481c09
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 'How do you carry yourself? '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - "Bold and imposing \u2014 I walk with purpose, cloak trailing behind me."
+    - "Wary and alert \u2014 I scan the woods, every sound a possible threat."
+    - "Weary but steady \u2014 The road has worn me, but I keep moving."
+    nodePosition:
+      serializedVersion: 2
+      x: 4405
+      y: 155
+      width: 499
+      height: 410
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3d5fc4b6-7e79-4f99-a763-ae6b5e4a05df
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: What brings you to Hearthglen?
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - "Mercenary work \u2014 Coin speaks louder than rumors.  "
+    - "The Cult of Eternal Flame \u2014 I want to uncover the truth."
+    - "Something personal \u2014 A lost friend, an old grudge, a promise.  "
+    nodePosition:
+      serializedVersion: 2
+      x: 5013
+      y: 155
+      width: 499
+      height: 410
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 429434dd-ece7-4bb2-9c71-dbd71828ea63
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: What are you thinking as you arrive?
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 3
+    choiceOptions:
+    - "This place feels wrong. I don\u2019t trust it."
+    - "Danger is likely\u2014but I\u2019m ready."
+    - "It reminds me of something I\u2019ve lost. Maybe I\u2019ll find it here.  "
+    nodePosition:
+      serializedVersion: 2
+      x: 5604
+      y: 155
+      width: 499
+      height: 410
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: aaf2a566-891a-4f9e-91b1-0098354df14f
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "I shared my name. A glimpse of where I came from.\nNot everything
+      \u2014 just enough."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6181
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d60d1ec2-2e9c-4e9b-ac92-f6ebd2ed74c5
+    characterSpr: {fileID: -9080178779126811850, guid: 4a706858c27f3b14d90b62e5ef335a6f, type: 3}
+    characterName: Zyra
+    dialogueText: "\u201CThere are things I\u2019m searching for. Things that don\u2019t
+      want to be found.\u201D\n\nZyra words hung in the air like perfume \u2014 sweet,
+      but heavy."
+    backgroundSpr: {fileID: -7958464205076530917, guid: 105ff07a74e452e49a462acc0ae0aa79, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9012
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a97b10d0-fef2-494d-82a1-b418c8700ed9
+    characterSpr: {fileID: -2315970454823542425, guid: e44e66c8dfa28224d9f6fe424a990ffe, type: 3}
+    characterName: Vyrix
+    dialogueText: "\u201CMy past is my own. What matters is where we go now.\u201D\n\nVyrix
+      sat still, too still. His calmness was unsettling\u2026 intentional."
+    backgroundSpr: {fileID: 2697308092670967106, guid: a8331d3fffe156348ad170bddfcd9efb, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9570
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6ef4c697-e175-4090-8b16-6b55868f521a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "The carriage rolled on. The silence had shifted \u2014\nnot gone,
+      but shared.\nWe were no longer strangers.\nNot entirely."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10136
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 99070c90-71d0-441d-8223-7800e47f918a
+    characterSpr: {fileID: 0}
+    characterName: Veyna
+    dialogueText: "\u201CLet\u2019s just say I\u2019ve outlived better odds than
+      this.\u201D\n\nVeyna arms were folded, gaze sharp. She spoke like someone used
+      to being right."
+    backgroundSpr: {fileID: 6538408193174668225, guid: fad121176b11f5447809a3c89ce14232, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8465
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ebaac475-ef8d-41ee-9e30-a86c7b2e4bfb
+    characterSpr: {fileID: 0}
+    characterName: Ashen
+    dialogueText: "\u201C\u2026I\u2019ve seen villages burn. I walk to make sure
+      fewer do.\u201D\n\nAshen stared out the window, his voice low, like the smoke
+      still lingered."
+    backgroundSpr: {fileID: 1571216789309899512, guid: cf31c1861377c094eab3d7bba51a8b93, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6747
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: cd4bfd58-b6e8-494e-bcef-d7e26926168a
+    characterSpr: {fileID: 0}
+    characterName: Bramble
+    dialogueText: "\u201CHeh, name\u2019s Bramble. If it grows wild, I\u2019ve probably
+      slept in it.\u201D\n\nBramble grinned, leaning back as if the world itself
+      was their bedroll."
+    backgroundSpr: {fileID: 3070204904303785567, guid: e2ed21532f7f09d43a27aad8df91d003, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7336
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8baee2c7-8b53-4e6b-b9d9-fe8f250c90ca
+    characterSpr: {fileID: 0}
+    characterName: Draven
+    dialogueText: "\u201C\u2026Draven. I don\u2019t talk much. Don\u2019t need to.\u201D\n\nDraven
+      gave a curt nod, hand resting casually on his blade."
+    backgroundSpr: {fileID: -8902689493532227885, guid: 8dc83ffc2a585cc4f9901361fc2e932f, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7901
+      y: 155
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7dfd2eeb-6bdf-4640-b19b-63ca6a8a6e20
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: At the entrance of Hearthglen Village, a figure stood in quiet
+      vigilance. Elder Rynn, an imposing yet gentle presence, waited for the travelers.
+      His silver-tipped feathers shimmered in the torchlight, his amber eyes reflecting
+      the flames as though holding centuries of wisdom within them. A wooden staff,
+      adorned with ancient runes and feathers from his ancestors, rested in his talons.
+    backgroundSpr: {fileID: 5924434085627715385, guid: dc700cfa66894464f9c0e0d67c7b9915, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10698
+      y: 182
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9144e8d7-1290-4a12-b449-f5c20fb1060c
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "As the party approached, the villagers\u2014many of whom had paused
+      their evening tasks\u2014watched with wary eyes. Conversations hushed, and
+      an air of anticipation settled over the gathering. The tension was almost tangible,
+      as if the very village was holding its breath."
+    backgroundSpr: {fileID: -3338622859618472693, guid: 845e4a9ea657f4143960bc118544a6f0, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11271
+      y: 182
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 030e5078-3b53-4916-a89a-3d0cd14481fa
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Elder Rynn\u2019s voice, deep and measured, broke the silence.\"You
+      have come at a troubled time, travelers,\" he said, his tone weighted with
+      something unspoken. \"The Balance wavers, and the Cult of Eternal Flame stirs
+      once more. The shadows grow restless, and I fear their gaze has turned upon
+      us."
+    backgroundSpr: {fileID: -3338622859618472693, guid: 845e4a9ea657f4143960bc118544a6f0, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11834
+      y: 182
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9bf7883c-7abb-4e2d-b2c7-e3239a043aa4
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "A few of the villagers exchanged glances, their expressions a
+      mix of relief and doubt. Some whispered amongst themselves, though none spoke
+      loud enough for the party to hear. One child, peeking from behind a mother\u2019s
+      skirts, stared wide-eyed before being gently ushered away."
+    backgroundSpr: {fileID: 4765382747746920668, guid: 06ee2b6a06ebfbb4381d77dc077f0661, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12411
+      y: 182
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 858872e9-6cff-4f37-85ba-51a0a31aef8d
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "The Travelers was led through the main square, past modest homes,
+      a bustling tavern, and a blacksmith\u2019s forge, its embers barely smoldering
+      for the night. Hearthglen was small but lively\u2014yet something unseen weighed
+      heavy in the air."
+    backgroundSpr: {fileID: 7385049515850078806, guid: 3df2c1264de7ea444aeea60d9b656e5d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12990
+      y: 182
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 18bc1446-17bc-4f3e-b833-d5aa96e86735
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: The inn stood at the heart of the village, its wooden beams darkened
+      with age, but the warm glow of lanterns within promised shelter. As they stepped
+      inside, the comforting scent of freshly baked bread, spiced mead, and burning
+      oakwood wrapped around them like a long-lost embrace. A few weary patrons occupied
+      the wooden tables, speaking in hushed tones. The innkeeper, a plump hare with
+      fur tinged gray from years of hard work, greeted them with a forced smile.
+    backgroundSpr: {fileID: 6576456232356290626, guid: e9871b30abbe86743bade4403e0dc26b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13556
+      y: 182
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3daecf61-007f-469f-83a6-082409a85ccb
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "\"Welcome, travelers. You\u2019ll find no grand luxuries here,
+      but there is warmth, food, and a place to lay your head. And in these times\u2026
+      that is no small thing.\" The inn was simple but well-kept. A roaring fireplace
+      crackled at the far end, its glow casting long shadows across the room. Heavy
+      wooden beams overhead groaned softly as if whispering secrets of years past.
+      The party settled in, taking their meal in quiet contemplation, the unspoken
+      tension of the village lingering in the air."
+    backgroundSpr: {fileID: 6576456232356290626, guid: e9871b30abbe86743bade4403e0dc26b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14166
+      y: 182
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3321bccc-3951-4616-ab9d-7c82f51c83f0
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: Outside, the wind had shifted. The trees whispered amongst themselves. 
+      And in the distant woods beyond the palisade, something watched.
+    backgroundSpr: {fileID: -68521462331337607, guid: 149594514e8d92f4480736a6edf0da95, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14761
+      y: 182
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

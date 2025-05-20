@@ -1,14 +1,5 @@
 fileFormatVersion: 2
 guid: 19bffdf8e809ebd439aaf9f444d2ea04
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 195708
@@ -16,3 +7,27 @@ AssetOrigin:
   packageVersion: 1.1
   assetPath: Assets/VNCreator/Behaviors/VNCreator_DisplayUI.cs
   uploadId: 497199
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - story: {fileID: 11400000, guid: 09f5ed818dbf6144db0bf56ac2a6b52d, type: 2}
+  - characterNameTxt: {instanceID: 0}
+  - dialogueTxt: {instanceID: 0}
+  - characterImg: {instanceID: 0}
+  - backgroundImg: {instanceID: 0}
+  - musicSource: {instanceID: 0}
+  - soundEffectSource: {instanceID: 0}
+  - nextBtn: {instanceID: 0}
+  - previousBtn: {instanceID: 0}
+  - saveBtn: {instanceID: 0}
+  - menuButton: {instanceID: 0}
+  - choiceBtn1: {instanceID: 0}
+  - choiceBtn2: {instanceID: 0}
+  - choiceBtn3: {instanceID: 0}
+  - endScreen: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
